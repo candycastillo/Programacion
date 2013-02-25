@@ -1,6 +1,6 @@
 using System;
 using System.Threading;
-namespace Reloj
+namespace Reloj //castillo moreno candy 
 {
 	public class Cronometro
 	{
@@ -39,7 +39,7 @@ namespace Reloj
 							Thread.Sleep(11);
 
 
-					
+					 
 						
 						
 						

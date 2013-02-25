@@ -2,7 +2,7 @@ using System;
 
 namespace Reloj
 {
-	class MainClass
+	class MainClass //castillo Moreno Candy
 	{
 		public void menu(){
 		Console.WriteLine ("Elija la opcion:");
@@ -12,7 +12,7 @@ namespace Reloj
 			int opcion = int.Parse(Console.ReadLine());
 		
 			if (opcion == 1) {  
-				Reloj2 clock = new Reloj2(); 
+				Reloj2 clock = new Reloj2();   
 				clock.iniciarTiempo(); 
 			}  
 

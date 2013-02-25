@@ -1,6 +1,6 @@
 using System;
 using System.Threading;
-namespace Reloj
+namespace Reloj //castillo moreno candy
 {
 	public class Reloj2
 	{
@@ -64,7 +64,7 @@ namespace Reloj
 							 
 
 						
-						} this.segundos=0;}this.minutos=0;}   this.nuevoDia();       }
+						} this.segundos=0;}this.minutos=0;}   this.nuevoDia();         }
 		
 		
 		
