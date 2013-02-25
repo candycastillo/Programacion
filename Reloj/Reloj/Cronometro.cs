@@ -22,17 +22,9 @@ namespace Reloj
 		}
 
 
-
-
-
-
-
-
 		public void iniciarCronometro(){
 
-
-		 
-				int minutos=0, segundos=0, horas=0, msegundos=0;  
+		int minutos=0, segundos=0, horas=0, msegundos=0;  
 				
 
 				for(horas=0; horas<24; horas++){
