@@ -1,6 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\Pictures\Practica2-master\Practica2\Utilerias.cs">
+    <Files>
+      <File FileName="c:\Users\ccastill\Documents\Tareas\Programacion\Reloj\Reloj\Reloj2.cs" Line="54" Column="4" />
+      <File FileName="Reloj\Main.cs" Line="1" Column="1" />
+      <File FileName="Reloj\Cronometro.cs" Line="29" Column="8" />
+      <File FileName="..\..\..\..\Pictures\Practica2-master\Practica2\Utilerias.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

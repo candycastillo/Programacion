@@ -8,11 +8,31 @@ namespace Reloj
 		{
 		}
 	
+
+
+
+		public string obtenFormatoDobleCero(int numero){
+			string numeroConFormato = "";
+			if(numero < 10){
+				numeroConFormato = "0";
+			}
+			
+			numeroConFormato += numero;
+			return numeroConFormato;
+		}
+
+
+
+
+
+
+
+
 		public void iniciarCronometro(){
 
 
 		 
-				double minutos=0, segundos=0, horas=0, msegundos=0;  
+				int minutos=0, segundos=0, horas=0, msegundos=0;  
 				
 
 				for(horas=0; horas<24; horas++){
@@ -20,14 +40,18 @@ namespace Reloj
 						for(segundos=0; segundos<60; segundos++){
 							for(msegundos=0;msegundos<60;msegundos++){
 
-						      Console.Clear();
+						     
+							Console.Clear();
 
-
-							Console.WriteLine(horas+":"+minutos+":"+segundos+":"+msegundos); 
+							Console.WriteLine(obtenFormatoDobleCero(horas)+":"+obtenFormatoDobleCero(minutos)+":"+obtenFormatoDobleCero(segundos)+":"+obtenFormatoDobleCero(msegundos) ); 
 							Thread.Sleep(11);
 
 
-					}}}} 
+					
+						
+						
+						
+						}}}} 
 	
 }
 	}
