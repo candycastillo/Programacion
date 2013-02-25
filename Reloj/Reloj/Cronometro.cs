@@ -12,13 +12,13 @@ namespace Reloj
 
 
 		 
-				int minutos=0, segundos=0, horas=0, msegundos=0;  
+				double minutos=0, segundos=0, horas=0, msegundos=0;  
 				
 
-				for(horas=0; horas<=23; horas++){
-					for(minutos=0; minutos<=59; minutos++){ 
-						for(segundos=0; segundos<=59; segundos++){
-							for(msegundos=0;msegundos<=59;msegundos++){
+				for(horas=0; horas<24; horas++){
+					for(minutos=0; minutos<60; minutos++){ 
+						for(segundos=0; segundos<60; segundos++){
+							for(msegundos=0;msegundos<60;msegundos++){
 
 						      Console.Clear();
 
@@ -27,13 +27,9 @@ namespace Reloj
 							Thread.Sleep(11);
 
 
-						  
-						
-							}}}} 
+					}}}} 
 	
-	
-	
-	}
+}
 	}
 
 }

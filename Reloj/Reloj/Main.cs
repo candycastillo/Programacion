@@ -13,7 +13,7 @@ namespace Reloj
 		
 			if (opcion == 1) {  
 				Reloj2 clock = new Reloj2(); 
-				clock.iniciarReloj(); 
+				clock.iniciarTiempo(); 
 			}  
 
 		else { Cronometro inicio = new Cronometro();  
